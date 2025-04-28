@@ -20,10 +20,11 @@ Welcome to **Trip To Russia** — your perfect assistant in planning an unforget
 - React
 
 **Backend**:
-- Node.js, npm
+- Node.js
 - MongoDB
 
 ## Installation and launch
+To successfully launch the project you need npm packages, install npm modules on your device!
 1. Clone the repository:
 ```bash
 git clone https://github.com/Yurets77/TripToRussia
