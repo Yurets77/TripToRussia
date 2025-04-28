@@ -1,0 +1,42 @@
+.cont-policy-conf {
+    width: 80%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cont-policy-conf h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cont-policy-conf h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cont-policy-conf p {
+    margin-bottom: 10px;
+}
+
+.cont-policy-conf ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.cont-policy-conf li {
+    margin-bottom: 8px;
+}
+
+.cont-policy-conf a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.cont-policy-conf a:hover {
+    text-decoration: underline;
+}

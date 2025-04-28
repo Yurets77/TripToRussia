@@ -1,0 +1,49 @@
+/* Header */
+
+.button-start {
+    padding: 11px 25px;
+    background-color: coral;
+    height: 55px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 90px;
+    border: none;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+    transition: all .1s ease-out;
+}
+
+
+/* Footer */
+.logo-black-footer {
+    width: 120px;
+    height: 90px;
+
+}
+
+/* Живописные маршруты */
+
+.line2 {
+    height: 1px;
+    background-color: rgb(177, 175, 175);
+    width: 50%;
+    max-width: 1650px;
+    min-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Хедер, иконка перед кнопкой регистрации/почтой аккаунтом */
+
+.trash-header-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.a-basket-header {
+    margin-right: 30px;
+}
+

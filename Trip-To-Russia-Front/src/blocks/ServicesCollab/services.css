@@ -1,0 +1,79 @@
+.parthner-collab {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.h1-serv {
+    margin-top: 50px;
+    font-size: 36px;
+}
+
+.container-serv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.block-serv {
+    position: relative;
+    min-width: 500px;
+    width: 1300px;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+    border: 5px solid black;
+    margin-bottom: 50px;
+}
+
+.block-serv img.logo-serv {
+    position: absolute;
+    left: 1px;
+    bottom: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.block-serv .text-serv {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    width: 500px;
+    text-align: right;
+}
+
+.upcoming-serv {
+    margin-top: 80px;
+    font-size: 24px;
+    margin-bottom: 120px;
+    text-align: center;
+
+}
+
+.upcoming-serv img {
+    width: 100px;
+    margin-top: 0px;
+    margin: 0 auto;
+}
+
+.style-back {
+    background-image: url('./Photo/ServicesCollaboration/guide.jpg');
+}
+
+.style-back-2 {
+    background-image: url('./Photo/ServicesCollaboration/flying.jpg');
+}
+
+.style-back-3 {
+    background-image: url('./Photo/ServicesCollaboration/travel-invalids.jpg');
+}
+
+.fix-serv {
+    width: 500px;
+    margin: 0 auto;
+}

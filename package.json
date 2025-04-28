@@ -1,0 +1,11 @@
+{
+  "name": "trip-to-russia-project",
+  "version": "1.0.0",
+  "description": "trip to russia with us",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yuriy/Ivan (KS54)",
+  "license": "ISC"
+}

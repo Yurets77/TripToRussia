@@ -1,0 +1,125 @@
+{
+  "Region":{
+    "image": "/Photo/RegionPage/Dagestan/Dagestan.jpeg",
+    "name": "ДАГЕСТАН",
+    "descriptionP1": "Дагестан - \"Страна гор\". Это самый южный регион России и крупнейший среди семи субъектов Северо-Кавказского федерального округа. Территория Дагестана простирается от побережья Каспийского моря до заснеженных вершин Большого Кавказа.",
+    "descriptionP2": "Лучшее время для поездки — май–июнь. В городах не слишком жарко, в горах не очень холодно, по ущельям уже можно пройти, но водопады еще не пересохли."
+  },
+
+  "SeasonRegion1": 
+  {
+      "image": "/Photo/RegionPage/Seasons/leto.jpeg",
+      "name": "Лето"
+  },
+  "SeasonRegion2":
+  {
+      "image": "/Photo/RegionPage/Seasons/osenb.jpeg",
+      "name": "Осень"
+  },
+  "SeasonRegion3":
+  {
+      "image": "/Photo/RegionPage/Seasons/zima.jpeg",
+      "name": "Зима"
+  },
+  "SeasonRegion4":
+  {
+      "image": "/Photo/RegionPage/Seasons/becna.jpeg",
+      "name": "Весна"
+  },
+
+  "TypesTourismRegion": 
+  {
+      "image": "/Photo/RegionPage/TypesTourism/peshuiTurizm.jpeg",
+      "name": "Пеший"
+  },
+
+  "Bestplace": [
+    {
+      "image": "/Photo/RegionPage/Dagestan/Sulakskiy.jpeg",
+      "name": "Сулакский каньон",
+      "description": "Одно из самых популярных природных достояний Дагестана. По территории каньон растянулся Дагестана на 53 километра."
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/Gamsutal.jpeg",
+      "name": "Гамсутль",
+      "description": "В Гунибском районе Дагестана находится красивый аварский аул Гамсутль. Много лет назад на его месте находилось аварское поселение."
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/Saltin.jpeg",
+      "name": "Салтинский водопад",
+      "description": "Салтинская теснина является удивительнейшим памятником природы и находится под охраной государства с 1983 года."
+    }
+  ],
+  "Unicplace": [
+    {
+      "image": "/Photo/RegionPage/Dagestan/Tobor.jpeg",
+      "name": "Водопад Тобот",
+      "description": "Одно из самых уникальных мест Дагестана - водопад Тобот в Хунзахском районе, спускающийся в Цолотлинское ущелье – глубокий каньон."
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/Aul.jpeg",
+      "name": "Аул Чох",
+      "description": "Чох - один из самых знаменитых аулов в истории. Это одно из древнейших человеческих поселений в Европе, известное как Чохская стоянка."
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/Tisnina.jpeg",
+      "name": "Карадахская теснина",
+      "description": "Карадахскую теснину также называют «Воротами чудес». Расположена теснина между Гунибским и Хунзахским районами."
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/Plane.jpeg",
+      "name": "Экраноплан «Лунь»",
+      "description": "В 1986 году сошел на воду первый корабль из серии боевых ракетоносных экранопланов весом 400 т. Судно развивало скорость 500км/ч"
+    }
+  ],
+
+  "ResendBlock1": {
+    "maintext": "Ваш следующий отпуск уже ждет!",
+    "subtext": "Найдите свой идеальный рейс",
+    "buttontext": "Начните свое путешествие сейчас!"
+  },
+
+  "ResendBlock2": {
+    "maintext": "С гидом в разы проще!",
+    "subtext": "Мы поможем Вам нанять личного гида для лучшего путешествия",
+    "buttontext": "Нанять гида сейчас!"
+  },
+
+  "Unicevent": {
+    "image": "/Photo/RegionPage/Dagestan/Dag-mer.jpeg",
+    "name": "Выставка \"Абонемент в историю\"",
+    "link": "/VistavkaDagestan"
+  },
+
+  
+  "Slider": 
+  [
+    {
+      "image": "/Photo/RegionPage/Dagestan/CitiesAttraction/Mahachkala.jpeg",
+      "title": "Махачкала",
+      "Link": "/Mahachkala"  
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/CitiesAttraction/Xasavurt.jpeg",
+      "title": "Хасавюрт",
+      "Link": "/Xasavurt"    
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/CitiesAttraction/Derbent.jpeg",
+      "title": "Дербент",
+      "Link": "/Derbent"    
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/CitiesAttraction/Kaspuisk.jpeg",
+      "title": "Каспийск",
+      "Link": "/Kaspuisk"    
+    },
+    {
+      "image": "/Photo/RegionPage/Dagestan/CitiesAttraction/Buinaksk.jpeg",
+      "title": "Буйнакск",
+      "Link": "/Buinaksk"    
+    }
+  ]
+}
+
+

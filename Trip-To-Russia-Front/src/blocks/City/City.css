@@ -1,0 +1,412 @@
+/* 1 блок */
+
+.container-photo {
+    position: relative;
+    border-radius: 20px;
+    min-height: 36rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+    .container-photo img {
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    
+    .text-city {
+    font-family: Helvetica,Arial,sans-serif;
+    --tw-text-opacity: 1;
+    color: rgb(0 87 217/var(--tw-text-opacity));
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 700;
+    display: inline;
+    margin: 0;
+}
+
+.city-info {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+
+.section-city {
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.p-discription {
+    margin-top: 20px;
+    max-width: 42rem;
+}
+
+.p2-discription {
+    max-width: 42rem;
+}
+
+
+/* Вместо виджета с погодой */
+
+.city-recommendations {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 5px;
+    justify-items: start;
+    margin-top: 20px;
+}
+
+.recommendation-titles {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 12px;
+    max-width: 500px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.recommendation-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.image-box {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.image-caption {
+    position: absolute;
+    bottom: 5px;
+    left: 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/* 2 блок */
+.image-container-favorite {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.text-favorite {
+    font-size: 22px;
+}
+
+.image-container-favorite-reg {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.image-container-favorite-reg img{
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    justify-content: center;
+  }
+
+.width100 {
+    width: 100%;
+}
+
+
+.line-reg {
+    height: 2px;
+    background-color: rgb(141, 139, 139);
+    width: 70%;
+    min-width: 1100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.text-for-visit-reg {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 33px;
+    font-weight: 550;    
+}
+
+.city-place-reg {
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.image-container-reg {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    grid-gap: 5px;
+}
+
+.image-container-reg img {
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.text-city-travel-reg {
+    text-align: left;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.text-place-discription-reg {
+    align-items: stretch;
+    font-size: 18px;
+    max-width: 27rem;
+    margin: 15px;
+}
+
+/* 3 блок */
+
+.img-portfolio-reg {
+    width: 400px;
+    height: 550px;
+    border-style: none;
+    margin-left: 30px;
+}
+
+.text-team-reg {
+    display: block;
+    margin-left: 50px;
+    width: 40%;
+}
+
+.zagolovok-reg {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.description-reg {
+    font-size: 19px;
+    max-width: 80%;
+}
+
+
+.container-main-reg {
+    display: flex;
+	min-width: 65%;
+    max-width: 65%;
+	justify-content: center;
+	margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* 4 блок */
+
+.TextWhy {
+    text-align: center;
+    width: 512px;
+    margin: 0 auto;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    font-family: 'pf_dindisplay_prolight', Arial, Helvetica, sans-serif; /* надо найти шрифт с сайта и вставить так чтоб работал (https://mos.news/blog/makhachkala-stolitsa-dagestana-istoriya-traditsii-i-gostepriimstvo/)*/
+
+}
+
+.ToCenter {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.opucanie {
+    font-size: 19px;
+}
+
+.marg-bottt {
+    margin-bottom: 100px;
+}
+
+/* 5 блок */
+
+
+.services-container {
+    width: 80%;
+    min-width: 1100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.servH1 {
+    text-align: left;
+    margin-left: 5%;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+.servH2 {
+    text-align: left;
+    margin-left: 5%;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    width: 250px;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.service-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.service-title {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.service-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.service-button {
+    padding: 10px 20px;
+    background-color: #FFA500;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.service-button:hover {
+    background-color: #cc8400;
+}
+
+/* 6 блок */
+.bottttt {
+    margin-bottom: 50px;
+}
+
+.block5 {
+    position: relative;
+    min-width: 600px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url('/Photo/City/Maxachkala/travelling-bottom.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.overlay-5 { /* затемнение херни с "Начать планирование" */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block5-content {
+    color: white;
+    z-index: 1;
+}
+
+.block5-content h1 {
+    font-size: 48px;
+}
+
+.block5-content img {
+    width: 300px;
+    height: 200px;
+}
+
+.plan-button {
+	font-family: Arial;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: calc(var(--index) * .71);
+	letter-spacing: -.02vw;
+	padding: calc(var(--index) * .7) calc(var(--index) * 1.25);
+	background-color: transparent;
+	color: #fff;
+	border-radius: 10em;
+	border: rgb(255 255 255 / .4) 3px solid;
+	outline: none;
+	cursor: pointer;
+	margin-top: calc(var(--index) * 1.2);
+    padding: 20px 40px;
+}
+
+.plan-button:hover {
+    background-color: #555;
+}

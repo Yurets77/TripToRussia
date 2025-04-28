@@ -1,0 +1,22 @@
+.body-not-found {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container-not-found {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h1-not-found {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.p-not-found {
+    margin-bottom: 20px;
+}

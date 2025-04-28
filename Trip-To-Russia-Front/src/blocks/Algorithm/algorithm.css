@@ -1,0 +1,582 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* pered algoritmom */
+
+.pred-nach {
+    text-align: center;
+}
+
+.pred1 {
+    color: #ffa500; font-size: 40px;
+}
+
+.pred2 {
+    font-weight: 700; font-size: 20px;
+}
+
+/**/
+
+.container-algo {
+    display: flex;
+    flex-direction: row;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.left-block {
+    width: 25%;
+    position: relative;
+    padding-right: 20px;
+}
+
+.left-block .line-special-algo {
+    width: 2px;
+    height: 100%;
+    background-color: #ffa500;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.left-block .label-algo {
+    position: absolute;
+    left: 50%;
+    width: max-content;
+    font-weight: bold;
+
+}
+
+.label1 {
+    transform: translateX(-232px);
+    top: 105px;
+}
+
+.label2 {
+    transform: translateX(-149px);
+    top: 360px;
+}
+
+.label3 {
+    transform: translateX(-308px);
+    top: 579px;
+}
+
+/* .label4 {
+    transform: translateX(-176px);
+    top: 750px;
+} */
+
+.label5 {
+    transform: translateX(-149px);
+    top: 688px;
+}
+
+.label6 {
+    transform: translateX(-153px);
+    top: 860px;
+}
+
+.label7 {
+    transform: translateX(-199px);
+    top: 1070px;
+}
+
+.label8 {
+    transform: translateX(-230px);
+    top: 1286px;
+}
+
+.label9 {
+    transform: translateX(-199px);
+    top: 1550px;
+}
+
+.left-block .label-algo::before {
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ffa500;
+    position: absolute;
+    right: -30px; /* круг */
+    top: 3px;
+}
+
+/* правая часть */
+.right-block {
+    width: 75%;
+    padding-left: 20px;
+}
+
+.right-block .section-algo {
+    margin-bottom: 40px;
+    border-top: 2px solid #ffa500;
+    padding-top: 20px;
+    position: relative;
+}
+
+.section-algo1 {
+    margin-bottom: 6px;
+    border-top: 2px solid #ffa500;
+    padding-top: 20px;
+    position: relative;
+
+}
+
+.right-block .section-dop {
+    margin-bottom: 40px;
+    border-top: 2px solid #ffa500;
+    padding-top: 20px;
+    position: relative;
+}
+
+.right-block .section-dopdop {
+    border-top: 2px solid #ffa500;
+    padding-top: 20px;
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    border-top:none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dop-sect {
+    margin-bottom: 0px;
+}
+
+.marg-bot {
+    margin-bottom: 10px;
+}
+
+.dop1 {
+    margin-bottom: -30px;
+}
+
+.dop2 {
+    border-top: none;
+}
+
+.dop3 {
+    position: absolute; margin-top: 100px; font-size: 12px;
+}
+
+.dop4 {
+    margin-bottom: 25px;
+}
+
+.dop5 {
+    margin-top: 40px;
+}
+
+.dop6 {
+    color: #007BFF; text-align: center; margin-top: 30px;
+}
+
+
+/* допы под грид отель */
+
+.dop1h {
+    color: rgb(87, 85, 85);
+}
+
+.dop2h {
+    color:black;
+    font-weight: 600;
+}
+
+.dop3h {
+    color: #ffa500;
+}
+
+/* конец допов под отель */
+
+.right-block .section-algo:first-child {
+    border-top: none;
+    padding-top: 0;
+}
+
+
+.right-block .section-algo[data-label="city"] {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-block .section-algo[data-label="city"] .city-select,
+.right-block .section-algo[data-label="city"] .date-select {
+    width: 48%;
+}
+
+.right-block .section-dop[data-label="city"] {
+    min-height: 100px;
+    display: flex;
+    border-top:none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-block .section-dop[data-label="city"] .city-select,
+.right-block .section-dop[data-label="city"] .date-select {
+    width: 48%;
+}
+
+.right-block .section-dopdop[data-label="city"] .city-select,
+.right-block .section-dopdop[data-label="city"] .date-select {
+    width: 48%;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.right-block .section-algo[data-label="transport"] .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right-block .section-algo[data-label="transport"] img {
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.right-block .section-algo[data-label="travel-type"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right-block .section-algo[data-label="travel-type"] .checkbox-group {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.right-block .section-algo[data-label="travel-type"] input[type="checkbox"] {
+    transform: scale(1.5); /* квадрат */
+    margin-right: 10px;
+}
+
+.right-block .section-algo1[data-label="travel-type"] {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.right-block .section-algo1[data-label="travel-type"] .checkbox-group {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.right-block .section-algo1[data-label="travel-type"] input[type="checkbox"] {
+    transform: scale(1.5); /* квадрат */
+    margin-right: 10px;
+}
+
+
+.save-button {
+    background-color: #ffa500;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    transition: all .1s ease-out;
+}
+
+.save-button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.ma-top-block {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* 2 блок, я запутался нахер */
+
+.right-block .section-algo[data-label="transport"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.transport-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+}
+
+.transport-option input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+
+.transport-option img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.transport-option label {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Блок с диапазоном цены */
+.right-block .section-algo[data-label="price"] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.price-range input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+    background-color: #007BFF;
+}
+
+.price-values {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.price-values span {
+    font-size: 14px;
+}
+
+#current-price {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Блок с гидом */
+.right-block .section-algo[data-label="yes-no"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.yes-no-select .options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.yes-no-select .options label {
+    display: flex;
+    align-items: center;
+}
+
+.yes-no-select input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-right: 8px;
+}
+
+/* Блок с кухней */
+
+
+.right-block .section-algo[data-label="kitchen"] .checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.right-block .section-algo[data-label="kitchen"] img {
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+.right-block .section-algo[data-label="kitchen"] {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.kitchen-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+}
+
+.kitchen-option input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-bottom: 10px;
+}
+
+.kitchen-option img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.kitchen-option label {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Блок с выбором отеля */
+
+.line-between {
+    border: none;
+    border-top: 2px solid #ffa500;
+    margin: 20px 0;
+}
+
+.hotels-offers {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hotels-offers h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.hotel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.hotel-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    position: relative;
+    width: 100%;
+}
+
+.hotel-card:hover {
+    transform: translateY(-5px);
+}
+
+.checkbox {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.hotel-label {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hotel-image {
+    margin-left: 25px;
+}
+
+.hotel-image img {
+    width: 100px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    flex: 1;
+    margin-left: 8px;
+}
+
+.hotel-info h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hotel-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #535353;
+}
+
+.new-price {
+    color: #f00;
+    font-weight: bold;
+}
+
+.continue-button {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.continue-button button {
+    color: white;
+    border: none;
+    background-color: #ffa500;
+    padding: 5px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .1s ease-out;
+}
+
+.continue-button button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+/* HotelGrid Code */
+
+.no-hotels {
+    width: 75%;
+    margin: 0 auto;
+    font-weight: 700;
+}

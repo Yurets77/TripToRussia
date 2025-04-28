@@ -1,0 +1,42 @@
+[
+  {
+    "image": "/Photo/attractionsCity/krasnodar.jpeg",
+    "title": "Краснодар",
+    "Link" : "/Krasnodar"
+  },
+  {
+    "image": "/Photo/attractionsCity/rsb-dag.jpeg",
+    "title": "Дагестан",
+    "Link": "/Dagestan"
+  },
+  {
+    "image": "/Photo/attractionsCity/moscow.jpeg ",
+    "title": "Москва",
+    "Link": "/Moscow"
+  },
+  {
+    "image": "/Photo/attractionsCity/Kazan.jpeg",
+    "title": "Казань",
+    "Link": "/Kazan"
+  },
+  {
+    "image": "/Photo/attractionsCity/Nizhnij-Novgorod.jpeg ",
+    "title": "Нижний Новгород",
+    "Link": "/Nizhniy"
+  },
+  {
+    "image": "/Photo/attractionsCity/PoctobNaDony.jpeg ",
+    "title": "Ростов-на-Дону",
+    "Link": "/Rostov-na-Donu"
+  },
+  {
+    "image": "/Photo/attractionsCity/Samara.jpeg ",
+    "title": "Самара",
+    "Link": "/Samara"
+  },
+  {
+    "image": "/Photo/attractionsCity/Tumen.jpeg ",
+    "title": "Тюмень",
+    "Link": "/Tumen"
+  }
+]

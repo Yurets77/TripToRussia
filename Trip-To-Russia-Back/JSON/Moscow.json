@@ -1,0 +1,123 @@
+{
+    "Region":{
+        "image": "/Photo/RegionPage/Moscow/moscow.jpeg",
+        "name": "МОСКВА",
+        "descriptionP1": "Москва - столица России. Это один из крупнейших городов мира. Здесь очень много интересных мест для туристов. Здесь очень много разных университетов и институтов. Молодежь нашей страны предпочитает получить образование в Москве.",
+        "descriptionP2": "В Москву можно приехать в любое время года. Для экскурсий и прогулок лучше выбирать период с апреля до октября, когда на улице тепло и мало дождей."
+    },
+
+    "SeasonRegion1": 
+    {
+        "image": "/Photo/RegionPage/Seasons/leto.jpeg",
+        "name": "Лето"
+    },
+    "SeasonRegion2":
+    {
+        "image": "/Photo/RegionPage/Seasons/osenb.jpeg",
+        "name": "Осень"
+    },
+    "SeasonRegion3":
+    {
+        "image": "/Photo/RegionPage/Seasons/zima.jpeg",
+        "name": "Зима"
+    },
+    "SeasonRegion4":
+    {
+        "image": "/Photo/RegionPage/Seasons/becna.jpeg",
+        "name": "Весна"
+    },
+
+    "TypesTourismRegion": 
+    {
+        "image": "/Photo/RegionPage/TypesTourism/peshuiTurizm.jpeg",
+        "name": "Пеший"
+    },
+
+    "Bestplace": [
+        {
+            "image": "/Photo/RegionPage/Moscow/VDNH.jpeg",
+            "name": "ВДНХ",
+            "description": "ВДНХ — уникальное пространство музейно-выставочных проектов, международных деловых выставок и конгрессов, фестивалей и праздников."
+        },
+        {
+            "image": "/Photo/RegionPage/Moscow/bolshoi.jpeg",
+            "name": "Большой театр",
+            "description": "Один из крупнейших в России и один из самых значительных в мире театров оперы и балета. Комплекс зданий театра расположен на Театральной площади."
+        },
+        {
+            "image": "/Photo/RegionPage/Moscow/Trek.jpeg",
+            "name": "Третьяковская галерея",
+            "description": "Третьяковская галерея — это главный музей национального искусства России, отражающий его уникальный вклад в мировую культуру."
+        }
+    ],
+    "Unicplace": [
+        {
+            "image": "/Photo/RegionPage/Moscow/Burganow.jpeg",
+            "name": "Дом-музей Бурганова",
+            "description": "Уже у фасада вы попадаете в земли русского сюрреализма, где органично существуют парадоксальные графика и скульптура выдающегося художника Бурганова."
+        },
+        {
+            "image": "/Photo/RegionPage/Moscow/Haos.jpeg",
+            "name": "Хаос",
+            "description": "«Хаос» — особняк гастрохулиганов от команды проектов «Галки» и «Узоры» в историческом месте на Покровке. Окунитесь в атмосферу Хаоса."
+        },
+        {
+            "image": "/Photo/RegionPage/Moscow/Krasnyi.jpeg",
+            "name": "Арт-пространство «Красный октябрь»",
+            "description": "Модное общественное арт-пространство соединило винтажность и креативные проекты в стенах бывшей кондитерской фабрики «Красный Октябрь» — памятника индустриальной архитектуры XIX века."
+        },
+        {
+            "image": "/Photo/RegionPage/Moscow/Zavod.jpeg",
+            "name": "Дизайн завод 'Flacon'",
+            "description": "Дизайн Завод Флакон - это креативное пространство в Москве, которое объединило в себе магазины, галереи, студии, кафе и многое другое. Это место, где можно найти что-то новое и интересное для себя."
+        }
+    ],
+
+    "ResendBlock1": {
+        "maintext": "Ваш следующий отпуск уже ждет!",
+        "subtext": "Найдите свой идеальный рейс",
+        "buttontext": "Начните свое путешествие сейчас!"
+    },
+
+    "ResendBlock2": {
+        "maintext": "С гидом в разы проще!",
+        "subtext": "Мы поможем Вам нанять личного гида для лучшего путешествия",
+        "buttontext": "Нанять гида сейчас!"
+    },
+
+    "Unicevent": {
+        "image": "/Photo/RegionPage/Moscow/Russia.jpeg",
+        "name": "Выставка Россия",
+        "link": "/VDNH"
+    },
+
+    
+    "Slider": 
+    [
+      {
+          "image": "/Photo/RegionPage/Moscow/CitiesAttraction/SergievPosad.jpeg",
+          "title": "Сергиев Посад",
+          "Link": "/SergievPosad"  
+        },
+        {
+          "image": "/Photo/RegionPage/Moscow/CitiesAttraction/Kolomna.jpeg",
+          "title": "Коломна",
+          "Link": "/Kolomna"    
+        },
+        {
+          "image": "/Photo/RegionPage/Moscow/CitiesAttraction/Zvenigorod.jpeg",
+          "title": "Звенигород",
+          "Link": "/Zvenigorod"    
+        },
+        {
+          "image": "/Photo/RegionPage/Moscow/CitiesAttraction/Dmitrov.jpeg",
+          "title": "Дмитров",
+          "Link": "/Dmitrov"    
+        },
+        {
+          "image": "/Photo/RegionPage/Moscow/CitiesAttraction/Zaraisk.jpeg",
+          "title": "Зарайск",
+          "Link": "/Zaraisk"    
+        }
+    ]
+}

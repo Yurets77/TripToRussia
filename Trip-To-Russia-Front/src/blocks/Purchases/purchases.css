@@ -1,0 +1,100 @@
+.container-basket {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.order-block-basket {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.order-basket, .add-order-basket {
+    width: 48%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.order-basket img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.order-info-basket {
+    margin-top: 20px;
+}
+
+.order-info-basket h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.order-info-basket p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.order-number-basket {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.delete-btn-basket {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-btn-basket:hover {
+    background-color: #0056b3;
+}
+
+.add-order-basket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-order-basket img {
+    width: 50%;
+}
+
+.line-trash {
+    height: 1px;
+    background-color: grey;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.trash-and-text {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+}
+
+.trash-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.trash-head {
+    margin: 10px;
+}
